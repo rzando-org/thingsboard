@@ -116,7 +116,7 @@
         <snakeyaml.version>2.2</snakeyaml.version>
         <aws.sdk.version>1.12.701</aws.sdk.version>
         <pubsub.client.version>1.128.1</pubsub.client.version>
-        <google.common.protos.version>2.37.1</google.common.protos.version>
+        <google.common.protos.version>2.45.0</google.common.protos.version>
         <azure-servicebus.version>3.6.7</azure-servicebus.version>
         <passay.version>1.6.4</passay.version>
         <ua-parser.version>1.6.1</ua-parser.version>
@@ -793,7 +793,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
