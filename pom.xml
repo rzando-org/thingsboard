@@ -165,7 +165,7 @@
         <google-oauth-client.version>1.35.0</google-oauth-client.version>
         <apache-xmlgraphics.version>1.17</apache-xmlgraphics.version>
         <drewnoakes-metadata-extractor.version>2.19.0</drewnoakes-metadata-extractor.version>
-        <firebase-admin.version>9.2.0</firebase-admin.version>
+        <firebase-admin.version>9.4.0</firebase-admin.version>
     </properties>
 
     <modules>
@@ -793,7 +793,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
