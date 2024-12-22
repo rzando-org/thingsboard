@@ -52,7 +52,7 @@
         <jjwt.version>0.12.5</jjwt.version>
         <slf4j.version>2.0.13</slf4j.version>
         <log4j.version>2.23.1</log4j.version>
-        <logback.version>1.5.5</logback.version>
+        <logback.version>1.5.13</logback.version>
         <rat.version>0.10</rat.version> <!-- unused -->
         <cassandra.version>4.17.0</cassandra.version>
         <metrics.version>4.2.25</metrics.version>
@@ -110,7 +110,7 @@
         <!-- IMPORTANT: If you change the version of the kafka client, make sure to synchronize our overwritten implementation of the
         org.apache.kafka.common.network.NetworkReceive class in the application module. It addresses the issue https://issues.apache.org/jira/browse/KAFKA-4090.
         Here is the source to track https://github.com/apache/kafka/tree/trunk/clients/src/main/java/org/apache/kafka/common/network -->
-        <kafka.version>3.7.0</kafka.version>
+        <kafka.version>3.7.2</kafka.version>
         <bucket4j.version>8.10.1</bucket4j.version>
         <antlr.version>3.5.3</antlr.version>
         <snakeyaml.version>2.2</snakeyaml.version>
@@ -793,7 +793,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
