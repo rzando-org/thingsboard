@@ -42,7 +42,7 @@
         <jakarta.xml.bind-api.version>4.0.2</jakarta.xml.bind-api.version>
         <javax.xml.bind-api.version>2.4.0-b180830.0359</javax.xml.bind-api.version>
         <jaxb-runtime.version>4.0.5</jaxb-runtime.version>
-        <spring-boot.version>3.2.4</spring-boot.version>
+        <spring-boot.version>3.3.7</spring-boot.version>
         <spring-data.version>3.2.5</spring-data.version>
         <spring-data-redis.version>3.2.5</spring-data-redis.version>
         <spring.version>6.1.6</spring.version>
@@ -165,7 +165,7 @@
         <google-oauth-client.version>1.35.0</google-oauth-client.version>
         <apache-xmlgraphics.version>1.17</apache-xmlgraphics.version>
         <drewnoakes-metadata-extractor.version>2.19.0</drewnoakes-metadata-extractor.version>
-        <firebase-admin.version>9.2.0</firebase-admin.version>
+        <firebase-admin.version>9.5.0</firebase-admin.version>
     </properties>
 
     <modules>
@@ -793,7 +793,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
